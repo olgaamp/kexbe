@@ -7,3 +7,41 @@ body{
     color:#404040;
     background:white;
 }
+
+.page-header,
+.page-footer {
+    background-color: rgb(101,46,8);
+    color:#c3c3c3;
+}
+.main-nav{
+    list-style:none;
+    text-transform: uppercase;
+    }
+
+.main-nav a {
+    color:#fafafa;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    color:#e7b86c;
+}
+.main-nav a:active{
+    color:#7b6035;
+}
+.promo{
+    font-family: "Arial", SansSerif;
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+    line-height: 1;
+    font-size: 15.901px;
+    text-align: center;
+    -moz-transform: matrix( 4.40232637078225, 0, 0, 4.40232637078225, 0, 0);
+    -webkit-transform: matrix( 4.40232637078225, 0, 0, 4.40232637078225, 0, 0);
+    position: absolute;
+    left: 314px;
+    top: 263px;
+    width: 576px;
+    height: 136px;
+    z-index: 165;
+}
+
