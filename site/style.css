@@ -1,47 +1,105 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
     font-family: "Arial", sans-serif;
-    font-size:16px;
-    line-height:24px;
-    color:#404040;
-    background:white;
+    color: #404040;
+    background-color: white;
 }
 
 .page-header,
 .page-footer {
-    background-color: rgb(101,46,8);
-    color:#c3c3c3;
+    background-color: rgb(101, 46, 8);
+    color: #c3c3c3;
+    padding: 0;
+    /*border: 1px solid red;*/
 }
-.main-nav{
-    list-style:none;
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    /*margin-bottom: 125px;*/
+}
+
+.header-top {
+    /*margin-bottom: 125px;*/
+    vertical-align: middle;
+    /* border: 1px solid green;*/
+    margin: 0;
+}
+
+.page-header {
+    background: url("img/wheat-back.jpg") no-repeat center;
+    background-size: cover;
+    width: 1280px;
+    padding-top: 35px;
+    height: 525px;
+}
+
+.header-logo {
+    float: left;
+    width: 142px;
+    height: 80px;
+    /*border: 1px solid yellow;*/
+}
+
+.header-logo img {
+    width: 142px;
+    height: 80px;
+}
+
+.main-nav {
+    float: left;
+    width: 700px;
+    list-style: none;
+    vertical-align: middle;
+    border-top: solid 1px #a98f55;
+    border-bottom: solid 1px #a98f55;
+    padding: 25px 0;
+    margin: 0 0 0 60px;
+    /* border: 1px solid yellow;*/
+}
+
+
+.main-nav li {
     text-transform: uppercase;
-    }
+    float: left;
+    margin-right: 58px;
+}
+
+.main-nav ul:last-child {
+    margin-right: 0;
+}
 
 .main-nav a {
-    color:#fafafa;
+    color: #fafafa;
     text-decoration: none;
 }
-.main-nav a:hover{
-    color:#e7b86c;
-}
-.main-nav a:active{
-    color:#7b6035;
-}
-.promo{
-    font-family: "Arial", SansSerif;
-    color: rgb( 255, 255, 255 );
-    font-weight: bold;
-    line-height: 1;
-    font-size: 15.901px;
-    text-align: center;
-    -moz-transform: matrix( 4.40232637078225, 0, 0, 4.40232637078225, 0, 0);
-    -webkit-transform: matrix( 4.40232637078225, 0, 0, 4.40232637078225, 0, 0);
-    position: absolute;
-    left: 314px;
-    top: 263px;
-    width: 576px;
-    height: 136px;
-    z-index: 165;
+
+.main-nav a:hover {
+    color: #e7b86c;
 }
 
+.main-nav a:active {
+    color: #7b6035;
+}
+
+.promo {
+    font-family: "Arial", SansSerif, serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    padding-top: 135px;
+    text-align: center;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    /* border: 1px solid blue;*/
+}
