@@ -40,6 +40,7 @@ body {
     /*width: 1200px;*/
     padding-top: 35px;
     height: 520px;
+
 }
 
 .header-logo {
@@ -182,25 +183,60 @@ td {
 }
 
 .features {
-    height: 400px;
+    min-height: 400px;
     background-color: #ffcb78;
-    border: 1px solid blue;
+    /* border: 1px solid blue;*/
+    padding: 50px 0 0 0;
+    margin: 0;
+}
+
+.features ul {
+    padding: 0;
+    margin: 0;
 }
 
 .features-item {
     list-style: none;
-    width: 350px;
+    width: 212px;
     float: left;
+    padding: 0 90px 0 0;
+    line-height: 30px;
+    text-align: left;
+    border-right: 1px solid #e5b66c;
+    margin: 25px 0 0 90px;
+    /*border: 1px solid blue;*/
+}
+
+.features-item:first-child {
+    margin-left: 0;
+}
+
+.features-item:last-child {
+    margin-right: 0;
+    border-right: 0 solid #e5b66c;
+    padding-right: 0;
+}
+
+.features-item p {
+    width: 205px;
 }
 
 .features-your-hand {
-    background: url("img/icon-brew.png") top center no-repeat;
+    background: url("img/icon-brew.png") top left no-repeat;
 }
 
 .features-free {
-    background: url("img/icon-matreshka.png") top center no-repeat;
+    background: url("img/icon-matreshka.png") top left no-repeat;
 }
 
 .features-no-save {
-    background: url("img/icon-thumbsup.png") top center no-repeat;
+    background: url("img/icon-thumbsup.png") top left no-repeat;
+}
+
+.feature-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 80px;
 }
