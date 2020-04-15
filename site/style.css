@@ -6,7 +6,22 @@ body {
     line-height: 24px;
     font-family: "Arial", sans-serif;
     color: #404040;
-    background-color: white;
+    background-color: #d0d0d0;
+}
+
+.btn {
+    color: #834700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+    border: 1px solid #834700;
+}
+
+.popular-message {
+    margin: 50px 20px;
+    height:80px;
 }
 
 .page-header,
@@ -15,6 +30,7 @@ body {
     color: #c3c3c3;
     padding: 0;
     height: 500px;
+    margin: 0;
     /*border: 1px solid red;*/
 }
 
@@ -25,7 +41,6 @@ body {
     /*margin-bottom: 125px;*/
     /*border: 1px solid green;*/
 }
-
 
 .header-top {
     /*margin-bottom: 125px;*/
@@ -40,7 +55,6 @@ body {
     /*width: 1200px;*/
     padding-top: 35px;
     height: 520px;
-
 }
 
 .header-logo {
@@ -105,12 +119,11 @@ body {
 .container {
     width: 1020px;
     margin: 0 auto;
-
     /* border: 1px solid blue;*/
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -152,11 +165,25 @@ td {
     height: 1084px;
     /* border: 1px solid red;*/
 }
-
+.popular-btn{
+    margin-bottom:0;
+}
+.popular-btn b{
+    margin-left:15px;
+}
+.brown-btn{
+    background-color:#834700;
+    color:#ffffff;
+}
 .catalog-item {
     position: relative;
     float: left;
-    width: 335px;
+    width: 420px;
+    margin: 0 0 0 90px;
+    /* border: 1px solid red;*/
+}
+.catalog-item:last-child {
+   /* margin-left:0;*/
 }
 
 .popular-and-price-battle img {
@@ -166,24 +193,28 @@ td {
 .popular-and-price-battle div {
     position: absolute;
     /*float: right;*/
-    top: 50px;
-    right: 0;
+    top: 80px;
+    right: 20px;
 }
 
-.popular-and-price .container {
-    width: 800px;
-}
+/*.popular-and-price .container {
+    width: 800px;*/
+/*}*/
 
 .card-left {
-    margin-right: 50px;
+    /*margin-right: 50px;*/
+    border-left: #e5e5e5 1px solid;
+    border-right: #e5e5e5 1px solid;
+    padding: 0 40px;
 }
 
 .title-popular {
-    margin: 95px 0 100px 200px;
+    margin: 0 0 70px 112px;
+    padding-top: 100px;
 }
 
 .features {
-    min-height: 400px;
+    max-height: 400px;
     background-color: #ffcb78;
     /* border: 1px solid blue;*/
     padding: 50px 0 0 0;
@@ -197,28 +228,29 @@ td {
 
 .features-item {
     list-style: none;
-    width: 212px;
+    width: 210px;
     float: left;
-    padding: 0 90px 0 0;
+    padding: 0 55px 0 0;
     line-height: 30px;
     text-align: left;
     border-right: 1px solid #e5b66c;
-    margin: 25px 0 0 90px;
-    /*border: 1px solid blue;*/
+    margin: 35px 10px 60px 70px;
+    /*border: 1px solid red;*/
 }
 
 .features-item:first-child {
-    margin-left: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 60px;
 }
 
 .features-item:last-child {
     margin-right: 0;
     border-right: 0 solid #e5b66c;
-    padding-right: 0;
 }
 
 .features-item p {
-    width: 205px;
+    width: 210px;
 }
 
 .features-your-hand {
