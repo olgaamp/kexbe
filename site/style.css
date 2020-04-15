@@ -21,7 +21,7 @@ body {
 
 .popular-message {
     margin: 50px 20px;
-    height:80px;
+    height: 80px;
 }
 
 .page-header,
@@ -126,7 +126,7 @@ h2 {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-}
+    }
 
 h3 {
     font-size: 20px;
@@ -165,16 +165,20 @@ td {
     height: 1084px;
     /* border: 1px solid red;*/
 }
-.popular-btn{
-    margin-bottom:0;
+
+.popular-btn {
+    margin-bottom: 0;
 }
-.popular-btn b{
-    margin-left:15px;
+
+.popular-btn b {
+    margin-left: 15px;
 }
-.brown-btn{
-    background-color:#834700;
-    color:#ffffff;
+
+.brown-btn {
+    background-color: #834700;
+    color: #ffffff;
 }
+
 .catalog-item {
     position: relative;
     float: left;
@@ -182,8 +186,11 @@ td {
     margin: 0 0 0 90px;
     /* border: 1px solid red;*/
 }
+.card-left-title{
+    margin:0 0 50px 10px;
+}
 .catalog-item:last-child {
-   /* margin-left:0;*/
+    /* margin-left:0;*/
 }
 
 .popular-and-price-battle img {
@@ -271,4 +278,20 @@ td {
     line-height: 30px;
     color: #000000;
     padding-top: 80px;
+}
+
+.cat-history {
+    margin: 0;
+    height: 680px;
+    background-color: #ffffff;
+}
+
+.history-title {
+    margin: 0;
+    padding: 90px 0 0 50px;
+}
+
+.reviews {
+    height: 480px;
+    background-color: #ede5d8;
 }
