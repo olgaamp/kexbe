@@ -149,7 +149,7 @@ td {
     padding: 0;
     margin: 0;
     height: 1084px;
-   /* border: 1px solid red;*/
+    /* border: 1px solid red;*/
 }
 
 .catalog-item {
@@ -183,19 +183,21 @@ td {
 
 .features {
     height: 400px;
-    background-color:#ffcb78;
+    background-color: #ffcb78;
     border: 1px solid blue;
 }
-.features-item{
+
+.features-item {
     list-style: none;
-    width:350px;
+    width: 350px;
     float: left;
 }
+
 .features-your-hand {
     background: url("img/icon-brew.png") top center no-repeat;
 }
 
-.features-free{
+.features-free {
     background: url("img/icon-matreshka.png") top center no-repeat;
 }
 
