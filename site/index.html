@@ -23,7 +23,7 @@
     </div>
 </div>
 <div class="popular-and-price">
-    <h2 class="title-popular">Новинки</h2>
+    <h2 class="section-title">Новинки</h2>
     <div class="container">
         <div class="popular-items ">
 
@@ -57,7 +57,7 @@
                 </div>
             </div>
 
-            <div class="catalog-item">
+            <div class="catalog-item card-right">
                 <div class="card-left">
                     <h2 class="card-left-title">Романтик</h2>
                     <div class="popular-and-price-battle clear-fix">
@@ -109,35 +109,43 @@
 </div>
 
 <div class="cat-history">
-    <h2 class="history-title">Немного истории</h2>
     <div class="container">
-        <dl>
-            <dt>
-                Происхождение кваса
-                <i>Источник: <a target="_blank" href="https://ru.wikipedia.org">ru.wikipedia.org</a></i>
-            </dt>
-            <dd>
-                <img src="img/wiki-1.png" alt="Происхождение кваса" width="200" height="101">
-                <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо
-                    России
-                    квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он
-                    везде
-                    одинаково — квас.</p>
-            </dd>
-        </dl>
-        <dl>
-            <dt>
-                Классификация кваса
-                <i>Источник: <a target="_blank" href="https://ru.wikipedia.org">ru.wikipedia.org</a></i>
-            </dt>
-            <dd>
-                <img src="img/wiki-2.png" alt="Происхождение кваса" width="200" height="101">
-                <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта
-                    не
-                    более
-                    1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
-            </dd>
-        </dl>
+
+        <h2 class="history-title">Немного истории</h2>
+        <div class="theory-container">
+            <dl>
+                <dt>
+                    <div class="reference-title">Происхождение кваса</div>
+                    <i class="reference-source">Источник: <a target="_blank" href="https://ru.wikipedia.org">ru.wikipedia.org</a></i>
+                </dt>
+                <dd>
+                    <img src="img/wiki-1.png" alt="Происхождение кваса" width="200" height="101">
+                    <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение.
+                        Помимо
+                        России
+                        квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но
+                        называется он
+                        везде
+                        одинаково — квас.</p>
+                </dd>
+            </dl>
+        </div>
+        <div class="theory-container">
+            <dl>
+                <dt>
+                    <div class="reference-title">Классификация кваса</div>
+                    <i class="reference-source">Источник: <a target="_blank" href="https://ru.wikipedia.org">ru.wikipedia.org</a></i>
+                </dt>
+                <dd>
+                    <img src="img/wiki-2.png" alt="Происхождение кваса" width="200" height="101">
+                    <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового
+                        спирта
+                        не
+                        более
+                        1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
+                </dd>
+            </dl>
+        </div>
     </div>
 </div>
 
@@ -207,7 +215,7 @@
         настоящий
         крафтовый квас сейчас. При
         заказе от 10 баррелей — скидка 10%.</p>
-    <form class="feedback-form" action="keksby-mail" method="post">
+    <form class="feedback-form" action="/keksby-mail" method="post">
         <div class="feedback-form-group">
             <label for="fullname">Представьтесь:</label>
             <input type="text" name="fullname" id="fullname">

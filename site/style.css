@@ -19,8 +19,23 @@ body {
     border: 1px solid #834700;
 }
 
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 90px 0;
+    padding: 90px 0 0 180px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 180px 60px 0;
+}
+
 .popular-message {
-    margin: 50px 20px;
+    margin: 20px 20px 70px 20px;
     height: 80px;
 }
 
@@ -122,12 +137,6 @@ body {
     /* border: 1px solid blue;*/
 }
 
-h2 {
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    }
-
 h3 {
     font-size: 20px;
     line-height: 30px;
@@ -182,15 +191,14 @@ td {
 .catalog-item {
     position: relative;
     float: left;
-    width: 420px;
+    width: 430px;
     margin: 0 0 0 90px;
     /* border: 1px solid red;*/
 }
-.card-left-title{
-    margin:0 0 50px 10px;
-}
-.catalog-item:last-child {
-    /* margin-left:0;*/
+
+.card-left-title {
+    margin: 0 0 50px 0;
+    padding: 20px 0 0 10px;
 }
 
 .popular-and-price-battle img {
@@ -204,6 +212,14 @@ td {
     right: 20px;
 }
 
+.popular-and-price-battle {
+    padding-left: 10px;
+}
+
+.popular-item:first-child {
+    margin-left: 200px;
+}
+
 /*.popular-and-price .container {
     width: 800px;*/
 /*}*/
@@ -211,8 +227,14 @@ td {
 .card-left {
     /*margin-right: 50px;*/
     border-left: #e5e5e5 1px solid;
-    border-right: #e5e5e5 1px solid;
+    /*border-right: #e5e5e5 0px solid;*/
     padding: 0 40px;
+}
+
+.catalog-item:last-child {
+    margin-left: 0;
+    border-left: #e5e5e5 1px solid;
+    border-right: #e5e5e5 1px solid;
 }
 
 .title-popular {
@@ -284,6 +306,19 @@ td {
     margin: 0;
     height: 680px;
     background-color: #ffffff;
+    padding: 90px 0 80px 0;
+}
+
+.cat-history dl {
+    width: 830px;
+}
+
+.cat-history dt {
+    margin: 0 0 10px 0;
+}
+
+.cat-history dd {
+    margin: 0;
 }
 
 .history-title {
@@ -294,4 +329,34 @@ td {
 .reviews {
     height: 480px;
     background-color: #ede5d8;
+}
+
+.reference-title {
+    font-size: 20px;
+    font-height: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.reference-source {
+    color: #c3c3c3;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.reference-source a {
+    color: #834700;
+}
+
+.reference-source a:hover {
+    color: #6a3900;
+}
+
+.reference-source a:active {
+    color: #cab7a2;
+}
+
+.cat-history dd img {
+    border-radius: 5px;
 }
