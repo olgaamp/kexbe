@@ -324,6 +324,9 @@ td {
     position:relative;
     margin: 0;
 }
+.cat-history dd p{
+    width:490px;
+}
 
 .cat-history dd img{
     position:absolute;
@@ -338,12 +341,13 @@ td {
 }
 .cat-history .container{
     position:relative;
-    border:1px solid blue;
+   /* border:1px solid blue;*/
 }
 .theory-container{
     position:relative;
-    width:100%;
-    border:1px solid red;
+    width:800px;
+    margin:90px 0 0 90px;
+    /*border:1px solid red;*/
 }
 .reviews {
     height: 480px;
@@ -352,16 +356,18 @@ td {
 
 .reference-title {
     font-size: 20px;
-    font-height: bold;
+    font-weight: bold;
     text-transform: uppercase;
     line-height: 30px;
+    width:600px;
+    color:#000000;
 }
 
 .reference-source {
+    color: #444444;
     position:absolute;
     top:0;
     right:0;
-    color: #c3c3c3;
     font-size: 16px;
     font-weight: normal;
     font-style: italic;
