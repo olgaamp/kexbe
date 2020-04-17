@@ -3,7 +3,7 @@ body {
     margin: 25px auto 0 auto;
     padding: 0;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 25px;
     font-family: "Arial", sans-serif;
     color: #404040;
     background-color: #d0d0d0;
@@ -15,7 +15,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    padding: 16px;
+    padding: 15px;
     border: 1px solid #834700;
 }
 
@@ -184,11 +184,13 @@ td {
 }
 
 .brown-btn {
+
     background-color: #834700;
     color: #ffffff;
 }
 
 .catalog-item {
+
     position: relative;
     float: left;
     width: 430px;
@@ -206,6 +208,7 @@ td {
 }
 
 .popular-and-price-battle div {
+
     position: absolute;
     /*float: right;*/
     top: 80px;
@@ -311,9 +314,9 @@ td {
 
 .cat-history dl {
     /*width: 830px;*/
-    min-height:100px;]
-    margin:0;
-    padding:0;
+    min-height: 100px;
+] margin: 0;
+    padding: 0;
 }
 
 .cat-history dt {
@@ -321,34 +324,42 @@ td {
 }
 
 .cat-history dd {
-    position:relative;
+    position: relative;
     margin: 0;
 }
-.cat-history dd p{
-    width:490px;
+
+.cat-history dd p {
+    width: 490px;
 }
 
-.cat-history dd img{
-    position:absolute;
+.cat-history dd img {
+    position: absolute;
     border-radius: 5px;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
 }
 
 .history-title {
     margin: 0;
     padding: 90px 0 0 50px;
 }
-.cat-history .container{
-    position:relative;
-   /* border:1px solid blue;*/
+
+.cat-history .container {
+    position: relative;
+    /* border:1px solid blue;*/
 }
-.theory-container{
-    position:relative;
-    width:800px;
-    margin:90px 0 0 90px;
+
+.theory-container {
+    position: relative;
+    width: 800px;
+    margin: 55px 0 0 90px;
     /*border:1px solid red;*/
 }
+
+.theory-container p {
+    line-height: 24pt;
+}
+
 .reviews {
     height: 480px;
     background-color: #ede5d8;
@@ -359,15 +370,15 @@ td {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 30px;
-    width:600px;
-    color:#000000;
+    width: 600px;
+    color: #000000;
 }
 
 .reference-source {
     color: #444444;
-    position:absolute;
-    top:0;
-    right:0;
+    position: absolute;
+    top: 0;
+    right: 0;
     font-size: 16px;
     font-weight: normal;
     font-style: italic;
@@ -385,3 +396,59 @@ td {
     color: #cab7a2;
 }
 
+.review-btn {
+    color: #cac3b8;
+    border: 1px solid #a5a097;
+
+}
+
+.review-btn:hover {
+    color: #ffffff;
+    border: 1px solid #a5a097;
+    background-color: #a5a097;
+}
+
+.review-btn:active {
+    color: #b5b2ad;
+    border: 1px solid #8f8a81;
+    background-color: #8f8a81;
+}
+
+.review-item{
+    position:relative;
+    /*width:700px;*/
+}
+.review-item::before {
+    background: url("img/quotes.png") top left no-repeat;
+    /*border: 1px solid blue;*/
+    width:50px;
+    height:50px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+.review-cite {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: right;
+    width:600px;
+    margin-right: 0;
+    float:right;
+}
+
+.review-footer{
+    /*border: 1px solid green;*/
+    position:relative;
+    margin-right: 80px;
+    margin-left: 30px;
+}
+
+.review-text{
+    margin-bottom:70px;
+    margin-left:42px;
+    width:690px;
+}
