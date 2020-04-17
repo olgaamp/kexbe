@@ -11,36 +11,17 @@ class Town {
     pollutionLevel;
 }
 
-class TownFilter {
-    filter(arrayForFilter, controlNumber) {
+class Filter {
+    filter(arrayForFilter, filterFunction) {
         let filteredArray = [];
-        for (let newElement of arrayForFilter) {
-            if (newElement.population > controlNumber) {
-                filteredArray.push(newElement)
+        for (let arrayForFilterElement of arrayForFilter) {
+            if (filterFunction(arrayForFilterElement)) {
+                filteredArray.push(arrayForFilterElement)
             }
         }
         return filteredArray
     }
 
-    filterByName(arrayForFilter, controlString) {
-        let filteredArray = [];
-        for (let newElement of arrayForFilter) {
-            if (newElement.name.includes(controlString)) {
-                filteredArray.push(newElement)
-            }
-        }
-        return filteredArray
-    }
-
-    filterByPollutionLevel(arrayForFilter, controlPollutionLevel) {
-        let filteredArray = [];
-        for (let newElement of arrayForFilter) {
-            if (functionToCheck(newElement)) {
-                filteredArray.push(newElement)
-            }
-        }
-        return filteredArray
-    }
 }
 
 
@@ -50,10 +31,23 @@ let towns = [
     new Town("Gorod 3", 3000, 15627)
 ];
 
-let townFilter = new TownFilter();
-let filteredArray = townFilter.filter(towns, 2000);
-let filteredArray2 = townFilter.filterByName(towns, '2');
-let filteredArray3 = townFilter.filterByPollutionLevel(towns, 2000);
+let townFilter = new Filter();
+towns.filter((town => {
+    return town.name.includes("2");
+}));
+let a = towns.map((town) => {
+    return town.population;
+});
+let filteredByNameArray = townFilter.filter(towns, (town) => {
+    return town.name.includes("2");
+});
+
+let filteredByPopulationArray = townFilter.filter(towns, (town) => {
+    return town.population > 1000;
+});
+let filteredByPollutionLevelArray = townFilter.filter(towns, (town) => {
+    return town.pollutionLevel < 2000;
+});
 
 
 console.log();
