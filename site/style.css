@@ -467,14 +467,14 @@ h3 {
     padding: 22px 0 29px 0;
 }
 
-.price-list td{
+.price-list td {
     font-weight: normal;
     border: 1px solid #e5e5e5;
     border-collapse: collapse;
     padding: 20px 0 17px 0;
-    border-left:none;
-    border-right:none;
- }
+    border-left: none;
+    border-right: none;
+}
 
 .birka {
     font-size: 8px;
@@ -482,7 +482,7 @@ h3 {
     background-color: #000000;
     color: #d1d1d1;
     margin-left: 20px;
-    padding:3px 5px 2px 5px;
+    padding: 3px 5px 2px 5px;
 }
 
 .price-list .price-name {
@@ -499,20 +499,26 @@ h3 {
     text-transform: uppercase;
     color: #000000;
     border-collapse: collapse;
-      /* border: 3px solid red;*/
+    /* border: 3px solid red;*/
 }
 
-.price-alk{
-    width:90px;
-}
-.price-kkal{
-    width:66px;
+.price-alk {
+    width: 90px;
 }
 
-.price-volume{
-    width:170px;
+.price-kkal {
+    width: 66px;
 }
 
-.price-cost{
-    text-align:right;
+.price-volume {
+    width: 170px;
+}
+
+.price-cost {
+    text-align: right;
+}
+
+.feedback {
+    height: 1188px;
+    background-color: #ffcb78;
 }
