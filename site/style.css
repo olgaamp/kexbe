@@ -464,14 +464,14 @@ h3 {
     font-weight: normal;
     color: #d3d3d3;
     text-align: left;
-    padding: 22px 0 29px 15px;
+    padding: 22px 0 29px 0;
 }
 
 .price-list td{
     font-weight: normal;
     border: 1px solid #e5e5e5;
     border-collapse: collapse;
-    padding: 20px 0 17px 15px;
+    padding: 20px 0 17px 0;
     border-left:none;
     border-right:none;
  }
@@ -488,11 +488,11 @@ h3 {
 .price-list .price-name {
     font-size: 16px;
     font-weight: bold;
-    width: 380px;
+    width: 400px;
 }
 
 .price-list {
-    margin-left: 60px;
+    margin-left: 90px;
     margin-top: 50px;
     width: 810px;
     /*border: 1px solid #e5e5e5;*/
@@ -500,4 +500,19 @@ h3 {
     color: #000000;
     border-collapse: collapse;
       /* border: 3px solid red;*/
+}
+
+.price-alk{
+    width:90px;
+}
+.price-kkal{
+    width:66px;
+}
+
+.price-volume{
+    width:170px;
+}
+
+.price-cost{
+    text-align:right;
 }
