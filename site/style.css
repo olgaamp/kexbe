@@ -414,15 +414,16 @@ td {
     background-color: #8f8a81;
 }
 
-.review-item{
-    position:relative;
+.review-item {
+    position: relative;
     /*width:700px;*/
 }
+
 .review-item::before {
     background: url("img/quotes.png") top left no-repeat;
     /*border: 1px solid blue;*/
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
     content: "";
     position: absolute;
     top: 0;
@@ -435,20 +436,45 @@ td {
     text-transform: uppercase;
     font-style: normal;
     text-align: right;
-    width:600px;
+    width: 600px;
     margin-right: 0;
-    float:right;
+    float: right;
 }
 
-.review-footer{
+.review-footer {
     /*border: 1px solid green;*/
-    position:relative;
+    position: relative;
     margin-right: 80px;
     margin-left: 30px;
 }
 
-.review-text{
-    margin-bottom:70px;
-    margin-left:42px;
-    width:690px;
+.review-text {
+    margin-bottom: 70px;
+    margin-left: 42px;
+    width: 690px;
+}
+
+.popular-items {
+    background-color: #ffffff;
+    height: 646px;
+}
+
+th {
+    font-size: 11px;
+    font-weight: normal;
+    color: #d3d3d3;
+}
+
+.birka {
+    font-size: 8px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #d1d1d1;
+    margin-left: 20px;
+}
+
+.price-name {
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
 }
