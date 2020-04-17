@@ -37,6 +37,7 @@ h2 {
 .popular-message {
     margin: 20px 20px 70px 20px;
     height: 80px;
+    width: 90%;
 }
 
 .page-header,
@@ -232,7 +233,7 @@ h3 {
     border-left: #e5e5e5 1px solid;
     /*border-right: #e5e5e5 0px solid;*/
     padding: 0 40px;
-    width:100%;
+    width: 100%;
 }
 
 .catalog-item:last-child {
@@ -354,7 +355,7 @@ h3 {
     position: relative;
     width: 800px;
     margin: 55px 0 0 90px;
-   /* border: 1px solid red;*/
+    /* border: 1px solid red;*/
 }
 
 .theory-container:last-child {
