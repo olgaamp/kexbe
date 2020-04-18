@@ -1,0 +1,118 @@
+.popular {
+    min-height: 1085px;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+
+.popular .container {
+    margin-top: 80px;
+    position: relative;
+    padding: 0;
+    /* border: 1px solid red;*/
+    min-width: 800px;
+}
+
+.popular-battle div {
+    position: absolute;
+    /*float: right;*/
+    top: 80px;
+    right: 15px;
+    max-width:153px;
+}
+
+.popular-battle {
+    padding-left: 10px;
+}
+
+.popular-battle img {
+    float: left;
+}
+
+.popular-battle p {
+    font-size:14px;
+}
+
+.popular-message {
+    margin: 20px 0 70px 0;
+    height: 80px;
+    max-width: 330px;
+}
+
+.popular table {
+    border: 1px solid #e5e5e5;
+    text-transform: uppercase;
+    color: #000000;
+    border-collapse: collapse;
+}
+
+.popular td {
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+    padding: 10px 0 5px 10px;
+    font-weight: bold;
+
+}
+
+.first-1-call {
+    width: 80px;
+}
+
+.second-1-call {
+    width: 70px;
+}
+
+.first-2-call {
+    width: 70px;
+}
+
+.second-2-call {
+    width: 80px;
+}
+
+.popular-btn {
+    line-height:40px;
+    /*text-align:right;*/
+}
+
+.popular-btn b {
+    min-width:40px;
+    margin-left:20px;
+
+}
+
+.brown-btn {
+    background-color: #834700;
+    color: #ffffff;
+}
+
+.popular-items {
+    min-width: 802px;
+    margin-top: 100px;
+
+}
+
+.catalog-item {
+    position: relative;
+    float: left;
+    width: 338px;
+    margin: 0;
+    border-left: #e5e5e5 1px solid;
+    padding-left: 38px;
+    padding-right: 23px;
+    /*padding: 0 40px;*/
+    /*border: 1px solid blue;*/
+}
+
+.catalog-item:last-child {
+    margin-left: 0;
+    float: left;
+    border-left: #e5e5e5 1px solid;
+    border-right: #e5e5e5 1px solid;
+}
+
+.card-title {
+    margin: 0 0 50px 0;
+    padding: 20px 0 0 10px;
+}
+
+

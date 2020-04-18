@@ -17,13 +17,18 @@ body {
 .container {
     width: 800px;
     margin: 0 auto;
-   /* border: 1px solid blue;*/
+    /*border: 1px solid blue;*/
 }
 
 .clear-fix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.title-popular {
+    margin: 0 0 70px 112px;
+    padding-top: 100px;
 }
 
 .btn {
@@ -40,8 +45,9 @@ body {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 0 90px 0;
-    padding: 90px 0 0 180px;
+   /* margin: 0 0 90px 0;
+    padding: 90px 0 0 180px;*/
+   /* border:1px solid red;*/
 }
 
 h2 {
@@ -56,112 +62,6 @@ h3 {
     line-height: 30px;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-.popular-message {
-    margin: 20px 20px 70px 20px;
-    height: 80px;
-    width: 90%;
-}
-
-.popular-and-price table {
-    border: 1px solid #e5e5e5;
-    text-transform: uppercase;
-    color: #000000;
-    border-collapse: collapse;
-}
-
-.popular-and-price td {
-    border: 1px solid #e5e5e5;
-    border-collapse: collapse;
-    padding: 15px 0 10px 15px;
-    font-weight: bold;
-}
-
-.first-call {
-    width: 79px;
-}
-
-.second-call {
-    width: 72px;
-}
-
-.popular-and-price .container {
-    background-color: #ffffff;
-    padding: 0;
-    height: 1084px;
-    /* border: 1px solid red;*/
-}
-
-.popular-btn {
-    margin-bottom: 0;
-}
-
-.popular-btn b {
-    margin-left: 15px;
-}
-
-.brown-btn {
-
-    background-color: #834700;
-    color: #ffffff;
-}
-
-.catalog-item {
-
-    position: relative;
-    float: left;
-    width: 430px;
-    margin: 0 0 0 90px;
-    /* border: 1px solid red;*/
-}
-
-.card-left-title {
-    margin: 0 0 50px 0;
-    padding: 20px 0 0 10px;
-}
-
-.popular-and-price-battle img {
-    float: left;
-}
-
-.popular-and-price-battle div {
-
-    position: absolute;
-    /*float: right;*/
-    top: 80px;
-    right: 20px;
-}
-
-.popular-and-price-battle {
-    padding-left: 10px;
-}
-
-.popular-item:first-child {
-    margin-left: 200px;
-}
-
-/*.popular-and-price .container {
-    width: 800px;*/
-/*}*/
-
-.card-left {
-    /*margin-right: 50px;*/
-    border-left: #e5e5e5 1px solid;
-    /*border-right: #e5e5e5 0px solid;*/
-    padding: 0 40px;
-    width: 100%;
-}
-
-.catalog-item:last-child {
-    margin-left: 0;
-    border-left: #e5e5e5 1px solid;
-    border-right: #e5e5e5 1px solid;
-}
-
-.title-popular {
-    margin: 0 0 70px 112px;
-    padding-top: 100px;
 }
 
 .features .container {
@@ -375,10 +275,6 @@ h3 {
     width: 690px;
 }
 
-.popular-items {
-    background-color: #ffffff;
-    height: 646px;
-}
 
 .price-list th {
     font-size: 11px;
