@@ -1,39 +1,59 @@
 .popular {
-    min-height: 1085px;
-    padding-top: 30px;
+    height: 1005px;
+    padding-top: 80px;
     background-color: #ffffff;
 }
 
-.popular .container {
-    margin-top: 80px;
+.popular__items {
+    min-width: 802px;
+}
+
+.popular__card {
     position: relative;
-    padding: 0;
-    /* border: 1px solid red;*/
-    min-width: 800px;
+    float: left;
+    width: 338px;
+    margin: 0;
+    border-left: #e5e5e5 1px solid;
+    padding-left: 38px;
+    padding-right: 23px;
 }
 
-.popular-battle div {
+.popular__card:last-child {
+    margin-left: 0;
+    float: left;
+    border-left: #e5e5e5 1px solid;
+    border-right: #e5e5e5 1px solid;
+}
+
+.popular__card-title {
+    margin: 0 0 48px 0;
+    padding: 18px 0 0 0;
+    font-size: 40px;
+}
+
+.popular__table-information div {
     position: absolute;
-    /*float: right;*/
-    top: 80px;
-    right: 15px;
-    max-width:153px;
+    top: 85px;
+    right: 20px;
+    max-width: 153px;
 }
 
-.popular-battle {
-    padding-left: 10px;
+.popular__table-information {
+    padding-left: 5px;
+    margin-bottom: 15px;
 }
 
-.popular-battle img {
+.popular__table-information img {
     float: left;
 }
 
-.popular-battle p {
-    font-size:14px;
+.popular__table-information p {
+    font-size: 14px;
 }
 
-.popular-message {
-    margin: 20px 0 70px 0;
+.popular__message {
+    margin: 0 0 70px 0;
+    line-height: 30px;
     height: 80px;
     max-width: 330px;
 }
@@ -50,7 +70,6 @@
     border-collapse: collapse;
     padding: 10px 0 5px 10px;
     font-weight: bold;
-
 }
 
 .first-1-call {
@@ -69,50 +88,23 @@
     width: 80px;
 }
 
-.popular-btn {
-    line-height:40px;
-    /*text-align:right;*/
+.popular__btn {
+    line-height: 40px;
 }
 
-.popular-btn b {
-    min-width:40px;
-    margin-left:20px;
-
+.popular__btn b {
+    min-width: 40px;
+    margin-left: 20px;
 }
 
-.brown-btn {
+.popular__btn_color_brown {
     background-color: #834700;
     color: #ffffff;
 }
 
-.popular-items {
-    min-width: 802px;
-    margin-top: 100px;
-
+.popular__btn_color_white {
+    color: #834700;
 }
 
-.catalog-item {
-    position: relative;
-    float: left;
-    width: 338px;
-    margin: 0;
-    border-left: #e5e5e5 1px solid;
-    padding-left: 38px;
-    padding-right: 23px;
-    /*padding: 0 40px;*/
-    /*border: 1px solid blue;*/
-}
-
-.catalog-item:last-child {
-    margin-left: 0;
-    float: left;
-    border-left: #e5e5e5 1px solid;
-    border-right: #e5e5e5 1px solid;
-}
-
-.card-title {
-    margin: 0 0 50px 0;
-    padding: 20px 0 0 10px;
-}
 
 
