@@ -1,0 +1,57 @@
+.features {
+    height: 410px;
+    padding-top: 80px;
+    background-color: #ffcb78;
+}
+
+.features ul {
+    padding: 0;
+    margin: 0;
+}
+
+.features__item {
+    list-style: none;
+    width: 210px;
+    float: left;
+    padding: 0 95px 0 95px;
+    line-height: 30px;
+    text-align: left;
+    border-right: 1px solid #e5b66c;
+    margin: 0;
+    /* border: 1px solid red;*/
+}
+
+.features__item:first-child {
+    padding-left: 0;
+}
+
+.features__item:last-child {
+    padding-right: 0;
+    border-right: 0 solid #e5b66c;
+}
+
+.features__item p {
+    width: 210px;
+    margin-bottom: 0;
+}
+
+.features-your-hand {
+    background: url("img/icon-brew.png") top left no-repeat;
+}
+
+.features-free {
+    background: url("img/icon-matreshka.png") 95px top no-repeat;
+}
+
+.features-no-save {
+    background: url("img/icon-thumbsup.png") 95px top no-repeat;
+}
+
+.feature__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 100px;
+    padding-bottom: 4px;
+}
