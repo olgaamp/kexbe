@@ -1,69 +1,30 @@
-.history{
+.history {
     height: 680px;
     padding-top: 80px;
     background-color: #ffffff;
 }
 
+.history .section-title {
+    margin-bottom: 60px;
+}
+
 .history dl {
-    /*width: 830px;*/
-    min-height: 100px;
     margin: 0;
     padding: 0;
 }
 
-.history dt {
-    margin: 0 0 10px 0;
+.history__item dl:last-child {
+    margin-bottom: 0;
 }
 
-.history dd {
+.history__item-title {
     position: relative;
-    margin: 0;
-}
-
-.history dd p {
-    width: 490px;
-}
-
-.history dd img {
-    position: absolute;
-    border-radius: 5px;
-    top: 0;
-    right: 0;
-}
-
-.history-title {
-    margin: 0;
-    padding: 90px 0 0 50px;
-}
-
-.history .container_size_narrow {
-    position: relative;
-    /* border:1px solid blue;*/
-}
-
-.history__item {
-    position: relative;
-    width: 800px;
-    margin: 55px 0 0 90px;
-    /* border: 1px solid red;*/
-}
-
-.history__item:last-child {
-    padding-bottom: 20px;
-}
-
-.history__item p {
-    line-height: 24pt;
-}
-
-
-.history__title {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 30px;
-    width: 600px;
     color: #000000;
+    padding: 5px 0 0 0;
+    margin-bottom: 20px;
 }
 
 .history__source {
@@ -74,6 +35,7 @@
     font-size: 16px;
     font-weight: normal;
     font-style: italic;
+    text-transform: none;
 }
 
 .history__source a {
@@ -86,4 +48,25 @@
 
 .history__source a:active {
     color: #cab7a2;
+}
+
+.history dd {
+    position: relative;
+    margin: 0 0 60px 0;
+    pading: 0 0 10px 0;
+
+}
+
+.history dd img {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+}
+
+.history p {
+    width: 495px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
 }

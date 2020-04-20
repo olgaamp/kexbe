@@ -20,7 +20,7 @@ body {
 .container_size_narrow {
     width: 800px;
     margin: 0 auto;
-   /* border: 1px solid blue;*/
+  /*  border: 1px solid blue;*/
 }
 
 .container_size_wide {
@@ -47,8 +47,8 @@ body {
 .section-title {
     font-size: 40px;
     margin: 0 0 75px 0;
-   /* border: 1px solid red;*/
-    line-height:60px;
+    /* border: 1px solid red;*/
+    line-height: 60px;
 }
 
 h2, h3 {
