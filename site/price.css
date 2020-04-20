@@ -1,12 +1,8 @@
 .price {
-    height: 645px;
+    height: 550px;
     padding-top: 90px;
     background-color: #ffffff;
 }
-
-/*.price .section-title {
-    margin-bottom: 75px;
-}*/
 
 .price__item {
     padding: 0;
@@ -15,7 +11,6 @@
     text-transform: uppercase;
     color: #000000;
     border-collapse: collapse;
-    /*  border: 3px solid red;*/
 }
 
 .price .price__item th {
