@@ -1,0 +1,67 @@
+.price {
+    height: 645px;
+    padding-top: 90px;
+    background-color: #ffffff;
+}
+
+/*.price .section-title {
+    margin-bottom: 75px;
+}*/
+
+.price__item {
+    padding: 0;
+    margin: 0;
+    min-width: 800px;
+    text-transform: uppercase;
+    color: #000000;
+    border-collapse: collapse;
+    /*  border: 3px solid red;*/
+}
+
+.price .price__item th {
+    font-size: 11px;
+    font-weight: normal;
+    color: #d3d3d3;
+    text-align: left;
+    padding: 5px 0 30px 0;
+}
+
+.price__item td {
+    font-weight: normal;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+    padding: 20px 0 19px 0;
+    border-left: none;
+    border-right: none;
+}
+
+.price__birka-news {
+    font-size: 8px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #d1d1d1;
+    margin-left: 20px;
+    padding: 3px 5px 2px 5px;
+}
+
+.price__item .price__table-name {
+    font-size: 16px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.price__table-alk {
+    width: 90px;
+}
+
+.price__table-ccal {
+    width: 66px;
+}
+
+.price__table-volume {
+    width: 170px;
+}
+
+.price__table-cost {
+    text-align: right;
+}
