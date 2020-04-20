@@ -20,7 +20,7 @@ body {
 .container_size_narrow {
     width: 800px;
     margin: 0 auto;
-   /* border: 1px solid blue;*/
+  /*  border: 1px solid blue;*/
 }
 
 .container_size_wide {
@@ -47,8 +47,8 @@ body {
 .section-title {
     font-size: 40px;
     margin: 0 0 75px 0;
-   /* border: 1px solid red;*/
-    line-height:60px;
+    /* border: 1px solid red;*/
+    line-height: 60px;
 }
 
 h2, h3 {
@@ -59,98 +59,9 @@ h2, h3 {
 
 }
 
-.cat-history .container_size_narrow {
-    min-height: 680px;
-    background-color: #ffffff;
-    /*padding: 90px 0 80px 0;*/
-}
-
-.cat-history dl {
-    /*width: 830px;*/
-    min-height: 100px;
-    margin: 0;
-    padding: 0;
-}
-
-.cat-history dt {
-    margin: 0 0 10px 0;
-}
-
-.cat-history dd {
-    position: relative;
-    margin: 0;
-}
-
-.cat-history dd p {
-    width: 490px;
-}
-
-.cat-history dd img {
-    position: absolute;
-    border-radius: 5px;
-    top: 0;
-    right: 0;
-}
-
-.history-title {
-    margin: 0;
-    padding: 90px 0 0 50px;
-}
-
-.cat-history .container_size_narrow {
-    position: relative;
-    /* border:1px solid blue;*/
-}
-
-.theory-container {
-    position: relative;
-    width: 800px;
-    margin: 55px 0 0 90px;
-    /* border: 1px solid red;*/
-}
-
-.theory-container:last-child {
-    padding-bottom: 20px;
-}
-
-.theory-container p {
-    line-height: 24pt;
-}
-
 .reviews .container_size_narrow {
     height: 480px;
     background-color: #ede5d8;
-}
-
-.reference-title {
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 30px;
-    width: 600px;
-    color: #000000;
-}
-
-.reference-source {
-    color: #444444;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: italic;
-}
-
-.reference-source a {
-    color: #834700;
-}
-
-.reference-source a:hover {
-    color: #6a3900;
-}
-
-.reference-source a:active {
-    color: #cab7a2;
 }
 
 .review-btn {
@@ -211,7 +122,7 @@ h2, h3 {
     width: 690px;
 }
 
-.price-list th {
+.price__item th {
     font-size: 11px;
     font-weight: normal;
     color: #d3d3d3;
@@ -219,7 +130,7 @@ h2, h3 {
     padding: 22px 0 29px 0;
 }
 
-.price-list td {
+.price__item td {
     font-weight: normal;
     border: 1px solid #e5e5e5;
     border-collapse: collapse;
@@ -237,13 +148,13 @@ h2, h3 {
     padding: 3px 5px 2px 5px;
 }
 
-.price-list .price-name {
+.price__item .price-name {
     font-size: 16px;
     font-weight: bold;
     width: 400px;
 }
 
-.price-list {
+.price__item {
     margin-left: 90px;
     margin-top: 50px;
     width: 810px;
