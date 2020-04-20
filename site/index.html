@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>Кваст</title>
@@ -10,6 +10,7 @@
     <link href="history.css" rel="stylesheet">
     <link href="reviews.css" rel="stylesheet">
     <link href="price.css" rel="stylesheet">
+    <link href="feedback.css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
@@ -58,8 +59,8 @@
                     приключений!
                 </p>
                 <div class="popular__btn">
-                    <a class="btn popular__btn_color_white" href="#">Подробнее</a>
-                    <a class="btn popular__btn_color_brown" href="#">Купить</a>
+                    <a class="btn _btn_color_white" href="#">Подробнее</a>
+                    <a class="btn _btn_color_brown" href="#">Купить</a>
                     <b> 150 Р.</b>
                 </div>
             </div>
@@ -86,8 +87,8 @@
                     течение всего дня.
                 </p>
                 <div class="popular__btn">
-                    <a class="btn popular__btn_color_white" href="#">Подробнее</a>
-                    <a class="btn popular__btn_color_brown" href="#">Купить</a>
+                    <a class="btn _btn_color_white" href="#">Подробнее</a>
+                    <a class="btn _btn_color_brown" href="#">Купить</a>
                     <b> 90 Р.</b>
                 </div>
             </div>
@@ -215,49 +216,52 @@
 </div>
 
 <div class="feedback">
-    <h2 class="section-title">Заказать</h2>
     <div class="container_size_narrow">
-        <p class="feedback-tip">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите
+        <h2 class="section-title">Заказать</h2>
+        <p class="feedback__title">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите
             настоящий
             крафтовый квас сейчас. При
             заказе от 10 баррелей — скидка 10%.</p>
-        <form class="feedback-form" action="/keksby-mail" method="post">
-            <div class="feedback-form-group">
-                <label for="fullname">Представьтесь:</label>
-                <input type="text" name="fullname" id="fullname">
+
+        <form class="feedback__form" action="" method="post">
+            <div class="feedback__form-group">
+                <label for="feedback__fullname">Представьтесь:</label>
+                <input type="text" name="fullname" id="feedback__fullname">
             </div>
-            <div class="feedback-form-group">
-                <label for="phone">Номер телефона:</label>
-                <input type="text" name="phone" id="phone">
+            <div class="feedback__form-phones clear-fix">
+                <div class="feedback__form-left">
+                    <label for="feedback__phone">Номер телефона:</label>
+                    <input type="text" name="phone" id="feedback__phone">
+                </div>
+                <div class="feedback__form-right">
+                    <label for="feedback__phonedop">Доп. номер:</label>
+                    <input type="text" name="phonedop" id="feedback__phonedop">
+                </div>
             </div>
-            <div class="feedback-form-group">
-                <label for="phonedop">Доп. номер:</label>
-                <input type="text" name="phonedop" id="phonedop">
-            </div>
-            <div class="feedback-form-group">
+            <div class="feedback__form-group">
                 <label for="email">Email:</label>
                 <input type="text" name="email" id="email">
             </div>
 
-            <div class="feedback-form-group">
-                <label for="volume">Объём заказа:</label>
+            <div class="feedback__form-group">
+                <label for="feedback__volume">Объём заказа:</label>
                 <div>
-                    <select name="volume" id="volume">
+                    <select name="volume" id="feedback__volume">
                         <option value="1">От 5 до 10 баррелей в неделю</option>
                     </select>
                 </div>
             </div>
-            <div class="feedback-form-group">
-                <label for="message">Доп. комментарий:</label>
-                <textarea name="message" id="message"></textarea>
+            <div class="feedback__form-group">
+                <label for="feedback__message">Доп. комментарий:</label>
+                <textarea name="message" id="feedback__message"></textarea>
             </div>
-            <div class="checkbox-area">
+            <div class="feedback__checkbox-area">
                 <label>
                     <input type="checkbox" name="subscription" checked>
                     Я согласен получать квасную рассылку
                 </label>
             </div>
-            <input class="btn" type="submit" value="Отправить заказ">
+            <input class="btn _btn_color_brown" type="submit" value="Отправить заказ">
         </form>
     </div>
 </div>

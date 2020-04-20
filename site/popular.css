@@ -97,32 +97,6 @@
     margin-left: 20px;
 }
 
-.popular__btn_color_brown {
-    background-color: #834700;
-    color: #ffffff;
-}
 
-.popular__btn_color_brown:hover {
-    background-color: #6a3900;
-    color: #ded6d1;
-}
-
-.popular__btn_color_brown:active {
-    background-color: #6a3900;
-    color: #a08874;
-}
-
-.popular__btn_color_white {
-    color: #834700;
-}
-
-.popular__btn_color_white:hover {
-    color: #834700;
-}
-
-.popular__btn_color_white:active {
-    color: #d9d1ca;
-    border: 1px solid #d2c3b2;
-}
 
 

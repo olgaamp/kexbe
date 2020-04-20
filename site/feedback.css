@@ -1,0 +1,90 @@
+.feedback {
+    height: 1110px;
+    padding-top: 90px;
+    background-color: #ffcb78;
+}
+
+.feedback .container_size_narrow {
+    position: relative;
+  /*  border: 1px solid blue;*/
+}
+
+.feedback__title {
+    margin: 0 0 60px 0;
+    width: 650px;
+}
+
+.feedback__form {
+    width: 630px;
+   /* border:1px solid green;*/
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    /*padding-right: 390px;*/
+}
+
+/*.feedback__form-phones{
+    position:relative;
+}*/
+
+.feedback__form-group {
+    padding: 0;
+    margin-bottom: 15px;
+
+}
+.feedback__form-phones {
+    margin-bottom: 15px;
+    padding: 0;
+   /* border:3px solid orchid;*/
+}
+
+.feedback label {
+    display: inline-block;
+    padding: 5px 0;
+    /*width:200px;*/
+}
+
+.feedback__form input[type="text"],
+.feedback__form select,
+.feedback__form textarea {
+    box-sizing: border-box;
+    height: 54px;
+    font: inherit;
+    color: #b69054;
+    background-color: #e5b66c;
+    padding: 5px 15px;
+    border: 2px solid #e5b66c;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.feedback__form-left{
+    float:left;
+    width:290px;
+}
+
+.feedback__form-right{
+    float:right;
+    width:290px;
+}
+
+.feedback__checkbox-area{
+    margin-bottom:25px;
+    padding:25px 17px;
+    /*width:80%;*/
+}
+
+.feedback__checkbox-area input[type="checkbox"]{
+    /* width:50px;
+     height:50px;*/
+    margin:0 5px 0 0;
+    padding:10px;
+    background-color: #e5b66c;
+    border: 2px solid #e5b66c;
+}
+
+.feedback__form textarea{
+    display:block;
+    min-height:120px;
+}

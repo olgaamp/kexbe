@@ -1,6 +1,6 @@
 body {
     min-width: 1200px;
-    /* width:80%;*/
+    /*width: 80%;*/
     margin: 0 auto;
     padding: 0;
     font-size: 16px;
@@ -20,7 +20,7 @@ body {
 .container_size_narrow {
     width: 800px;
     margin: 0 auto;
-   /* border: 1px solid blue;*/
+    /*border: 1px solid blue;*/
 }
 
 .container_size_wide {
@@ -43,7 +43,7 @@ body {
     padding: 14px;
     border: 1px solid #834700;
 }
-/**/
+
 .section-title {
     font-size: 40px;
     margin: 0 0 75px 0;
@@ -58,7 +58,30 @@ h2, h3 {
     text-transform: uppercase;
 }
 
-.feedback {
-    height: 1188px;
-    background-color: #ffcb78;
+._btn_color_brown {
+    background-color: #834700;
+    color: #ffffff;
+}
+
+._btn_color_brown:hover {
+    background-color: #6a3900;
+    color: #ded6d1;
+}
+
+._btn_color_brown:active {
+    background-color: #6a3900;
+    color: #a08874;
+}
+
+._btn_color_white {
+    color: #834700;
+}
+
+._btn_color_white:hover {
+    color: #834700;
+}
+
+._btn_color_white:active {
+    color: #d9d1ca;
+    border: 1px solid #d2c3b2;
 }
