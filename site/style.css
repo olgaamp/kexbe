@@ -59,98 +59,9 @@ h2, h3 {
 
 }
 
-.cat-history .container_size_narrow {
-    min-height: 680px;
-    background-color: #ffffff;
-    /*padding: 90px 0 80px 0;*/
-}
-
-.cat-history dl {
-    /*width: 830px;*/
-    min-height: 100px;
-    margin: 0;
-    padding: 0;
-}
-
-.cat-history dt {
-    margin: 0 0 10px 0;
-}
-
-.cat-history dd {
-    position: relative;
-    margin: 0;
-}
-
-.cat-history dd p {
-    width: 490px;
-}
-
-.cat-history dd img {
-    position: absolute;
-    border-radius: 5px;
-    top: 0;
-    right: 0;
-}
-
-.history-title {
-    margin: 0;
-    padding: 90px 0 0 50px;
-}
-
-.cat-history .container_size_narrow {
-    position: relative;
-    /* border:1px solid blue;*/
-}
-
-.theory-container {
-    position: relative;
-    width: 800px;
-    margin: 55px 0 0 90px;
-    /* border: 1px solid red;*/
-}
-
-.theory-container:last-child {
-    padding-bottom: 20px;
-}
-
-.theory-container p {
-    line-height: 24pt;
-}
-
 .reviews .container_size_narrow {
     height: 480px;
     background-color: #ede5d8;
-}
-
-.reference-title {
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 30px;
-    width: 600px;
-    color: #000000;
-}
-
-.reference-source {
-    color: #444444;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: italic;
-}
-
-.reference-source a {
-    color: #834700;
-}
-
-.reference-source a:hover {
-    color: #6a3900;
-}
-
-.reference-source a:active {
-    color: #cab7a2;
 }
 
 .review-btn {
