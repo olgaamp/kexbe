@@ -12,7 +12,7 @@ body {
 }
 
 .header,
-.page-footer {
+.footer {
     color: #c3c3c3;
     background-color: #363636;
 }
@@ -20,13 +20,13 @@ body {
 .container_size_narrow {
     width: 800px;
     margin: 0 auto;
-    /*border: 1px solid blue;*/
+    /*border: 1px solid white;*/
 }
 
 .container_size_wide {
     width: 1015px;
     margin: 0 auto;
-
+     /*border: 1px solid yellow;*/
 }
 
 .clear-fix::after {
